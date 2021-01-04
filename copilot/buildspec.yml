@@ -55,6 +55,7 @@ phases:
           fi
         done;
       # Build images
+      #
       # - For each manifest file:
       #   - Read the path to the Dockerfile by translating the YAML file into JSON.
       #   - Run docker build.
